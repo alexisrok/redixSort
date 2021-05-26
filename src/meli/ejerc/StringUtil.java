@@ -6,7 +6,8 @@ public class StringUtil
 	// Ejemplo: replicate('x',5) ==> 'xxxxx'
 	public static String replicate(char c,int n)
 	{
-		return "";
+		String replicate = c;
+		return replicate.repeat(n);
 	}
 
 	// Retorna una cadena de longitud n, compuesta por s
@@ -22,7 +23,7 @@ public class StringUtil
 	// representados como cadenas de caracteres
 	public static String[] toStringArray(int arr[])
 	{
-		return null;
+		return arr.split("");
 	}
 
 	// Retorna un String[] conteniendo los elementos de arr
